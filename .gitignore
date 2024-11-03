@@ -1,0 +1,59 @@
+#----BACK----
+ethereum/node_modules
+ethereum/.env
+
+# Hardhat files
+ethereum/cache
+ethereum/artifacts
+
+# TypeChain files
+ethereum/typechain
+ethereum/typechain-types
+
+# solidity-coverage files
+ethereum/coverage
+ethereum/coverage.json
+
+# Hardhat Ignition default folder for deployments against a local node
+ethereum/ignition/deployments/chain-31337
+
+
+#----FRONT----
+# dependencies
+client/node_modules
+client/.pnp
+client/.pnp.*
+client/.yarn/*
+client/!.yarn/patches
+client/!.yarn/plugins
+client/!.yarn/releases
+client/!.yarn/versions
+
+# testing
+client/coverage
+
+# next.js
+client/.next/
+client/out/
+
+# production
+client/build
+
+# misc
+client/.DS_Store
+client/*.pem
+
+# debug
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+
+# env files (can opt-in for commiting if needed)
+client/.env*
+
+# vercel
+client/.vercel
+
+# typescript
+client/*.tsbuildinfo
+client/next-env.d.ts
